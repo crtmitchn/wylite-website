@@ -12,6 +12,10 @@ p,a {
     text-decoration: none;
 }
 
+p {
+    line-height: 20pt;
+}
+
 .githref {
     color: rgb(114, 137, 218)
 }
@@ -74,8 +78,12 @@ li a.selected {
     padding: 10%;
 }
 
-.logo, .footer-root, .copyright {
+.pcspecpic, .footer-root, .copyright {
     justify-content: center;
     align-content: center;
     text-align: center;
+}
+
+.pcspecpic {
+    border-radius: 10%;
 }
